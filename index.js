@@ -14,7 +14,6 @@ program
 program.parse(process.argv);
 
 const argv = program.opts();
-console.log(argv);
 
 // TODO: рефакторити
 function invokeAction({ action, id, name, email, phone }) {
